@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ebay-config
+data:
+  properties: |
+    mode=on
+    signal=7
